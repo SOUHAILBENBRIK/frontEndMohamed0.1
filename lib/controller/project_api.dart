@@ -12,7 +12,7 @@ class ProjectApi {
   static String addCategoryUrl = "${AppConst.url}/project/ajoutcategorie";
   static String getCategoryUrl = "${AppConst.url}/project/getallcategorie";
   static String getProjectUrl = "${AppConst.url}/project/getallproject";
-  static void addCategory(
+  static Future<void> addCategory(
       {required String categoryName,
       required PlatformFile pickedFile,
       required File fileToDisplay}) async {
