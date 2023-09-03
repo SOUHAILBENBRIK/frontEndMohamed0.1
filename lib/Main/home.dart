@@ -21,7 +21,7 @@ class _HomePageState extends State<HomePage> {
   int index = 0;
   final screens = [
     MainPage(),
-    ProjectsScreen(),
+    ProjectsPage(),
     Profile(),
   ];
 
